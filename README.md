@@ -68,7 +68,7 @@ Step 1: Merges the training and the test sets to create one data set.
 This step merges the content of files `subject_test.txt`, `X_test.txt`, `y_test.txt`, `subject_train.txt`, `X_train.txt` and `y_train.txt` in order to build a global Data Set.
 
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.   
-Only measurement labels finishing by "-mean()" or "-std()" are selected.
+Only measurement labels that contain "-mean()" or "-std()" substrings are selected.
 
 Step 3: Uses descriptive activity names to name the activities in the data set.   
 This step is based on the content of the file `activity_labels.txt`
