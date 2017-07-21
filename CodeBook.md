@@ -17,7 +17,7 @@ Features are the list of the 561 variables that were measured or computed during
 
 Features are normalized and bounded within [-1, 1].
 
-The units used for accelerations (total and body) are 'g's (gravity of Earth =>  9.80665 m/s^2.
+The units used for accelerations (total and body) are 'g's (gravity of Earth =>  9.80665 m/s^2).
 
 Gyroscopes measurements are defined in rad/s.
 
