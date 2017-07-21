@@ -15,6 +15,12 @@ train/y_train.txt (7352 lines)
 
 Features are the list of the 561 variables that were measured or computed during the experiment.
 
+Features are normalized and bounded within [-1, 1].
+
+The units used for accelerations (total and body) are 'g's (gravity of Earth =>  9.80665 m/s^2.
+
+Gyroscopes measurements are defined in rad/s.
+
 Two main groups of features can be defined:
 * "t" (for time) prefixed features are signal that come from the accelerometer and gyroscope 3-axial raw signals; these signals were captured at a constant rate of 50 Hz. 
 * "f" (for frequency) prefixed features are the application of a Fast Fourier Transform to some of the "t" signals.
