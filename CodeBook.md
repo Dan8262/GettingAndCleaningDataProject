@@ -16,12 +16,13 @@ train/y_train.txt (7352 lines)
 Features are the list of the 561 variables that were measured or computed during the experiment.
 
 Two main groups of features can be defined:
-* "t" (for time) prefixed features are signal that come from the accelerometer and gyroscope 3-axial raw signals; these signals were catured at a constant rate of 50 Hz. 
+* "t" (for time) prefixed features are signal that come from the accelerometer and gyroscope 3-axial raw signals; these signals were captured at a constant rate of 50 Hz. 
 * "f" (for frequency) prefixed features are the application of a Fast Fourier Transform to some of the "t" signals.
 
 Subjects are a group of 30 volunteers whithin an age bracket of 19-48 years.
 
-Test and Train Set Data Sets are the result of a random partition of experiment data set
+Test and Train Set Data Sets are the result of a random partition of experiment data set. 70% of the volunteers was selected for generating the training set and 30% the test set.
+
 ### Activity Variables
 
 Activity Id and Labels are stored in the file `activity_labels.txt`; activities describe the different postures of subjects associated with the experiment, it's defined by video-recording each subject.
