@@ -4,28 +4,27 @@ This `CodeBook.md` file is dedicated to the description of variables used by the
 
 ### Test and Training Data Sets files
 
-activity_labels.txt (6 lines)
-features.txt (561 lines)
-test/subject_test.txt (2947 lines)
-test/X_test.txt (2947 lines)
-test/y_test.txt (2947 lines)
-train/subject_train.txt (7352 lines)
-train/X_train.txt (7352 lines)
-train/y_train.txt (7352 lines)
+activity_labels.txt (6 lines)   
+features.txt (561 lines)    
+test/subject_test.txt (2947 lines)   
+test/X_test.txt (2947 lines)   
+test/y_test.txt (2947 lines)   
+train/subject_train.txt (7352 lines)   
+train/X_train.txt (7352 lines)   
+train/y_train.txt (7352 lines)   
 
 Features are the list of the 561 variables that were measured or computed during the experiment.
 
 Two main groups of features can be defined:
 * "t" (for time) prefixed features are signal that come from the accelerometer and gyroscope 3-axial raw signals; these signals were catured at a constant rate of 50 Hz. 
 * "f" (for frequency) prefixed features are the application of a Fast Fourier Transform to some of the "t" signals.
-Signal with 
 
 Subjects are a group of 30 volunteers whithin an age bracket of 19-48 years.
 
 Test and Train Set Data Sets are the result of a random partition of experiment data set
 ### Activity Variables
 
-Activity Id and Labels are stored in the file `activity_labels.txt`; activities describe the different postures of subjects associated with the experiment, it's defined by video-recording each subject and updated every 20 ms (50 Hz frequency).
+Activity Id and Labels are stored in the file `activity_labels.txt`; activities describe the different postures of subjects associated with the experiment, it's defined by video-recording each subject.
 
 <table>
   <tr>
@@ -66,4 +65,4 @@ List of applied modifications to variable labels:
 * "Mag" has been replaced by "Magnitude".
 * "BodyBody" has been replaced by "Body"
 
-For intance, "tBodyAcc-mean()-X" becamed "TimeBodyAcc_MeanX" and "fBodyAccMag-mean()" becamed "FreqBodyAccMagnitude_Mean".
+For instance, "tBodyAcc-mean()-X" becamed "TimeBodyAcc_MeanX" and "fBodyAccMag-mean()" becamed "FreqBodyAccMagnitude_Mean".
